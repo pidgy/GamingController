@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<package  xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>    
+    <id>GamingController</id>
+    <version>1.0</version>
+    <title>Gaming Controller Interface For Multiple Platforms</title>
+    <authors>trashbo4t</authors>
+    <owners>Nolan Hodge</owners>
+    <licenseUrl></licenseUrl>
+    <projectUrl></projectUrl>
+    <iconUrl>https://i.imgur.com/FnGBtZD.jpg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>GamingController presents the IGamingController interface and multiple classes for Xbox, Playstation, and Generic controller devices</description>
+    <releaseNotes></releaseNotes>
+    <copyright></copyright>
+    <tags></tags>
+    <dependencies>
+      <dependency id="" />
+    </dependencies>
+    <summary></summary>
+  </metadata>
+  <files>
+    <file src="" target="" />
+  </files>
+</package>
