@@ -10,7 +10,7 @@
     <licenseUrl>https://raw.githubusercontent.com/trashbo4t/GamingController/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/trashbo4t/GamingController</projectUrl>
     <iconUrl>https://i.imgur.com/FnGBtZD.jpg</iconUrl>
-    <description>GamingController presents the IGamingController interface and multiple classes for Xbox, Playstation, and Generic controller devices</description>
+    <description>Dependency-free .NET library for Xbox, Playstation, and Generic gaming controllers</description>
     <summary>GamingController presents the IGamingController interface and multiple classes for Xbox, Playstation, and Generic controller devices</summary>
     <releaseNotes></releaseNotes>
     <copyright></copyright>
