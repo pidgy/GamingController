@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>NolanHodge.GamingController</id>
+    <version>1.0.3</version>
+    <title>Gaming Controller Interface For Multiple Platforms</title>
+    <authors>trashbo4t</authors>
+    <owners>Nolan Hodge</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://raw.githubusercontent.com/trashbo4t/GamingController/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/trashbo4t/GamingController</projectUrl>
+    <iconUrl>https://i.imgur.com/FnGBtZD.jpg</iconUrl>
+    <description>GamingController presents the IGamingController interface and multiple classes for Xbox, Playstation, and Generic controller devices</description>
+    <summary>GamingController presents the IGamingController interface and multiple classes for Xbox, Playstation, and Generic controller devices</summary>
+    <releaseNotes></releaseNotes>
+    <copyright></copyright>
+    <tags>Xbox Playstation Generic Controller Gaming</tags>
+  </metadata>
+</package>
