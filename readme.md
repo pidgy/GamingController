@@ -25,4 +25,4 @@ GamingController presents the IGamingController interface and multiple classes f
   controller.Refresh()
 ```
 
- - This package is available in the nuget repository https://www.nuget.org/packages/GamingController/
+ - This package is available in the nuget repository https://www.nuget.org/packages/NolanHodge.GamingController/
