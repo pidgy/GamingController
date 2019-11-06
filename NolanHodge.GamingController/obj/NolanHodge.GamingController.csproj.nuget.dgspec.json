@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\trash\\Documents\\dev\\GamingController\\GamingController\\GamingController.csproj": {}
+    "C:\\Users\\trash\\Documents\\dev\\NolanHodge.GamingController\\NolanHodge.GamingController\\NolanHodge.GamingController.csproj": {}
   },
   "projects": {
-    "C:\\Users\\trash\\Documents\\dev\\GamingController\\GamingController\\GamingController.csproj": {
+    "C:\\Users\\trash\\Documents\\dev\\NolanHodge.GamingController\\NolanHodge.GamingController\\NolanHodge.GamingController.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\trash\\Documents\\dev\\GamingController\\GamingController\\GamingController.csproj",
-        "projectName": "GamingController",
-        "projectPath": "C:\\Users\\trash\\Documents\\dev\\GamingController\\GamingController\\GamingController.csproj",
+        "projectUniqueName": "C:\\Users\\trash\\Documents\\dev\\NolanHodge.GamingController\\NolanHodge.GamingController\\NolanHodge.GamingController.csproj",
+        "projectName": "NolanHodge.GamingController",
+        "projectPath": "C:\\Users\\trash\\Documents\\dev\\NolanHodge.GamingController\\NolanHodge.GamingController\\NolanHodge.GamingController.csproj",
         "packagesPath": "C:\\Users\\trash\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\trash\\Documents\\dev\\GamingController\\GamingController\\obj\\",
+        "outputPath": "C:\\Users\\trash\\Documents\\dev\\NolanHodge.GamingController\\NolanHodge.GamingController\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

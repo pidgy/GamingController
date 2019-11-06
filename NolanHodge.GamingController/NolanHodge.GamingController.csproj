@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FE531E2F-4958-4D8B-842C-A5B8A3427DFE}</ProjectGuid>
+    <ProjectGuid>{457E3E7D-81FC-42DD-9541-5BAF149B42B6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GamingController</RootNamespace>
-    <AssemblyName>GamingController</AssemblyName>
+    <RootNamespace>NolanHodge.GamingController</RootNamespace>
+    <AssemblyName>NolanHodge.GamingController</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.18362.0</TargetPlatformVersion>
@@ -122,7 +122,7 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Properties\GamingController.rd.xml" />
+    <EmbeddedResource Include="Properties\NolanHodge.GamingController.rd.xml" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Windows.Gaming.Input;
 
-namespace GamingController
+namespace NolanHodge.GamingController
 {
     public class XboxController : IGamingController
     {
