@@ -16,8 +16,6 @@ namespace NolanHodge.GamingController
 
         public GenericController()
         {
-            Debug.WriteLine("CONTROLLERS: " + RawGameController.RawGameControllers.Count);
-
             this.Controller = null;
 
             RawGameController.RawGameControllerRemoved += (s, e) =>
