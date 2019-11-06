@@ -1,4 +1,6 @@
 ﻿# GamingController
+ 
+ - This package is available as a nuget package https://www.nuget.org/packages/GamingController/
 
 GamingController presents the IGamingController interface and multiple classes for Xbox, Playstation, and Generic controller devices.
 
