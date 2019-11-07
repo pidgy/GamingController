@@ -26,3 +26,5 @@ GamingController presents the IGamingController interface and multiple classes f
 ```
 
  - This package is available in the nuget repository https://www.nuget.org/packages/NolanHodge.GamingController/
+
+![nuget](https://i.imgur.com/Al51DE6.jpg)
