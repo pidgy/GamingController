@@ -1,4 +1,4 @@
-﻿## GamingController
+﻿# GamingController
  
 GamingController presents the IGamingController interface and multiple classes for Xbox, Playstation, and Generic controller devices.
 
@@ -35,7 +35,7 @@ GamingController presents the IGamingController interface and multiple classes f
   Controller.Refresh();
 ```
 
-# Auto-Determine Controller
+## Auto-Determine Controller
 ```C#
   using NolanHodge.GamingController;
   
