@@ -1,28 +1,49 @@
-﻿# GamingController
+﻿## GamingController
  
 GamingController presents the IGamingController interface and multiple classes for Xbox, Playstation, and Generic controller devices.
 
+## Playstation Controller
 ```C#
   using NolanHodge.GamingController;
   
-  XboxController controller = new XboxController();
-  PlaystationController controller = new PlaystationController();
-  GenericController controller = new GenericController();
+  PlaystationController Controller = new PlaystationController();
   
-  controller.Connected += (s,e) => 
-  {
-      // controller has been detected.
-      Run();
-  };
+  Controller.Connected += (s,e) => { HandleConnectedAsync(); };
+  Controller.Disconnected += (s,e) => { HandleDisconnectedAsync();  };
+  Controller.Refresh();
+```
+
+## Xbox Controller
+```C#
+  using NolanHodge.GamingController;
   
-  controller.Disconnected += (s,e) => 
-  {
-      // controller has been disconnected.
-      Kill();
-  };
+  XboxController Controller = new XboxController();
   
-  // handle a pre-connected controller.
-  controller.Refresh()
+  Controller.Connected += (s,e) => { HandleConnectedAsync(); };
+  Controller.Disconnected += (s,e) => { HandleDisconnectedAsync();  };
+  Controller.Refresh();
+```
+
+## Generic Controller
+```C#
+  using NolanHodge.GamingController;
+  
+  GenericController Controller = new GenericController();
+  
+  Controller.Connected += (s,e) => { HandleConnectedAsync(); };
+  Controller.Disconnected += (s,e) => { HandleDisconnectedAsync();  };
+  Controller.Refresh();
+```
+
+# Auto-Determine Controller
+```C#
+  using NolanHodge.GamingController;
+  
+  AutoController Controller = new AutoController();
+  
+  Controller.Connected += (s,e) => { HandleConnectedAsync(); };
+  Controller.Disconnected += (s,e) => { HandleDisconnectedAsync();  };
+  controller.Refresh();
 ```
 
  - This package is available in the nuget repository https://www.nuget.org/packages/NolanHodge.GamingController/
