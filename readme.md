@@ -39,11 +39,20 @@ GamingController presents the IGamingController interface to the .NET framework 
 ```C#
   using NolanHodge.GamingController;
   
-  AutoController Controller = new AutoController();
+  {
+      AutoController Controller = new AutoController();
   
-  Controller.Connected += (s,e) => { HandleConnectedAsync(); };
-  Controller.Disconnected += (s,e) => { HandleDisconnectedAsync();  };
-  controller.Refresh();
+      Controller.Connected += (s,e) => { HandleConnectedAsync(); };
+      Controller.Disconnected += (s,e) => { HandleDisconnectedAsync();  };
+      Controller.Refresh();
+   
+      Start(Controller);
+  }
+  
+  void Start(IGamingController Controller)
+  {
+  
+  }
 ```
 
  - This package is available in the nuget repository https://www.nuget.org/packages/NolanHodge.GamingController/
