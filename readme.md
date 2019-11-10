@@ -39,11 +39,24 @@ GamingController presents the IGamingController interface to the .NET framework 
 ```C#
   using NolanHodge.GamingController;
   
+  void Determine()
   {
-      AutoController Controller = new AutoController();
-  
-      Controller.Connected += (s,e) => { HandleConnectedAsync(); };
+      GenericController Controller = new GenericController();
+      Controller.Connected += (s,e) => 
+      {
+            switch (Controller.TypeString(Controller.Vendor()))
+            {
+             case "Xbox":
+                 Controller = new XboxController();
+             case "Playstation":
+                 Controller = new PlaystationController();
+             case "Generic":
+                 break;
+            }
+
+      };
       Controller.Disconnected += (s,e) => { HandleDisconnectedAsync();  };
+      
       Controller.Refresh();
    
       Start(Controller);
