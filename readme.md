@@ -1,6 +1,6 @@
 ﻿# GamingController
  
-GamingController presents the IGamingController interface and multiple classes for Xbox, Playstation, and Generic controller devices.
+GamingController presents the IGamingController interface to the .NET framework for Xbox, Playstation, and Generic Controller device support.
 
 ## Playstation Controller
 ```C#
