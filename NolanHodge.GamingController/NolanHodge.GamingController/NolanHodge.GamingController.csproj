@@ -36,8 +36,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <GenerateLibraryLayout>true</GenerateLibraryLayout>
-    <DocumentationFile>
-    </DocumentationFile>
+    <DocumentationFile>bin\Release\NolanHodge.GamingController.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <PlatformTarget>x86</PlatformTarget>
@@ -123,6 +122,7 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Controller.cs" />
     <Compile Include="GenericController.cs" />
     <Compile Include="IGamingController.cs" />
     <Compile Include="PlaystationController.cs" />
