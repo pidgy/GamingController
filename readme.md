@@ -39,9 +39,11 @@ GamingController presents the IGamingController interface to the .NET framework 
 ```C#
   using NolanHodge.GamingController;
   
+  // Handle any controller type connected.
   void Determine()
   {
       GenericController Controller = new GenericController();
+
       Controller.Connected += (s,e) => 
       {
             switch (Controller.TypeString(Controller.Vendor()))
@@ -55,6 +57,7 @@ GamingController presents the IGamingController interface to the .NET framework 
             }
 
       };
+
       Controller.Disconnected += (s,e) => { HandleDisconnectedAsync();  };
       
       Controller.Refresh();
@@ -62,6 +65,7 @@ GamingController presents the IGamingController interface to the .NET framework 
       Start(Controller);
   }
   
+  // Called once controller has been configured.
   void Start(IGamingController Controller)
   {
   
